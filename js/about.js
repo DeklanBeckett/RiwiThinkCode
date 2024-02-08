@@ -1,7 +1,7 @@
 var cierre = localStorage.getItem("autentication");
 // Verificar si el usuario no está autenticado y redirigirlo a la página de inicio
 if (cierre == "no") {
-    location.href = "file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/index.html";
+    location.href = "https://github.com/DeklanBeckett/RiwiThinkCode/blob/main/index.html";
 }
 
 // Función para cambiar el tema y la imagen
@@ -58,7 +58,7 @@ function traducir() {
 // Función para cerrar sesión
 function cerrarsesion(){
     // Redirigir al usuario a la página de inicio y actualizar el estado de autenticación
-    location.href = "file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/index.html";
+    location.href = "https://github.com/DeklanBeckett/RiwiThinkCode/blob/main/index.html";
     localStorage.setItem("autentication","no");
 }
 
