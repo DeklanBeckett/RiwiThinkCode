@@ -1,6 +1,6 @@
 var cierre = localStorage.getItem("autentication");
 if (cierre == "no") {
-    location.href = "file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/index.html";
+    location.href = "https://github.com/DeklanBeckett/RiwiThinkCode/blob/main/index.html";
 }
 function iniciar() {
     // Obtener los datos del usuario almacenados en el almacenamiento local
@@ -113,7 +113,7 @@ fetch('http://localhost:3000/questions')
     }
     
 function cerrarsesion(){
-    location.href = "file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/index.html";
+    location.href = "https://github.com/DeklanBeckett/RiwiThinkCode/blob/main/index.html";
     localStorage.setItem("autentication","no");
 }
 
