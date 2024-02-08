@@ -8,12 +8,12 @@ let usuarioid = usuario.id;
 var cierre = localStorage.getItem("autentication");
 // Redirigir a la página de inicio si el estado de autenticación es "no"
 if (cierre == "no") {
-    location.href = "file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/index.html";
+    location.href = "https://deklanbeckett.github.io/RiwiThinkCode/";
 }
 
 // Función para cerrar sesión
 function cerrarsesion(){
-    location.href = "file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/index.html";
+    location.href = "https://deklanbeckett.github.io/RiwiThinkCode/";
     localStorage.setItem("autentication","no");
 }
 
