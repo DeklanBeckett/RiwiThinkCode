@@ -15,7 +15,7 @@ function ingresa() {
                 if (name.value == element.email && password.value == element.password) {
                     // Si las credenciales son correctas, redirigir a otra página y almacenar datos en el almacenamiento local
                     credencialesCorrectas = true;
-                    window.location.assign('file:///C:/Users/juand/OneDrive/Escritorio/riwithinkcodev3/pages/pp.html');
+                    window.location.assign('https://github.com/DeklanBeckett/RiwiThinkCode/blob/main/pages/pp.html');
                     localStorage.setItem("user", JSON.stringify(element));
                     localStorage.setItem("autentication","yes");
                 }
