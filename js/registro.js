@@ -28,7 +28,7 @@ function registro(){
         .then(response => {
             // Mostrar un mensaje de registro exitoso y redirigir a la página  del login
             alert("Se ha registrado un usuario");
-            location.href = "https://github.com/DeklanBeckett/RiwiThinkCode/blob/main/index.html";
+            location.href = "https://deklanbeckett.github.io/RiwiThinkCode/";
         })
         .catch(error => {
             // Manejar errores de la solicitud
