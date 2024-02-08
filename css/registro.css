@@ -1,0 +1,162 @@
+/* fonts */
+
+@font-face {
+    font-family: titulos;
+    src: url("../fonts/lumina/LUMINA.ttf");
+    
+  }
+  @font-face {
+    font-family: textos;
+    src: url("../fonts/champagne_limousines/Champagne\ &\ Limousines\ Italic.ttf");
+  }
+  
+  body{
+      margin: 0%;
+      padding: 0%;
+      font-family: titulos;
+  }
+  .container{
+      display: grid;
+      place-items: center;
+  }
+  img{
+      margin-top: -150px;
+      width: 500px;
+  }
+  .registro{
+      margin-top: -150px;
+      display: grid;
+      place-items: center;
+      height: 550px;
+      width: 450px;
+      box-shadow: 0px 0px 10px 5px rgb(186, 112, 255);
+      border-radius: 20px;
+  }
+  input{
+      border-radius: 44px;
+      width: 70%;
+      margin-bottom: 15px;
+      padding: 12px;
+      border: none;
+      background-color: rgb(238,238,238);
+  }
+  input:hover{
+      border: 2px solid #7609dbd9;
+  }
+  
+  a{
+      color: #7609DB;
+  }
+  
+  /* button{
+      border: none;
+      border-radius: 40px;
+      width: 60%;
+      transition: background-color 0.5s, color 0.5s;
+      padding: 8px;
+      color: #7609dbd9;
+  }
+  button:hover{
+      background-color: #7609dbd9;
+      color: #fff;
+  } */
+  
+  
+  .animated-button {
+      position: relative;
+      display: inline-block;
+      padding: 12px 24px;
+      border: none;
+      font-size: 16px;
+      background-color: inherit;
+      border-radius: 100px;
+      font-weight: 600;
+      color: #7609DB;
+      box-shadow: 0 0 0 2px #ffffffc5;
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+      
+  }
+  
+  .animated-button span:last-child {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px;
+      background-color: #7609DB;
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .animated-button span:first-child {
+      position: relative;
+      z-index: 1;
+  }
+  
+  .animated-button:hover {
+      box-shadow: 0 0 0 2px rgb(186, 112, 255);
+      color: #ffffff;
+  }
+  
+  .animated-button:active {
+      scale: 0.95;
+  }
+  
+  .animated-button:hover span:last-child {
+      width: 150px;
+      height: 150px;
+      opacity: 1;
+  }
+  .foot{
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(118, 9, 219, 0.808) );
+      background-size: cover;
+      height: 10vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      
+  }
+  footer{
+      padding: 10px;
+      width: 100%;
+      bottom:0;
+        position: absolute;
+  
+  }
+  a{
+      text-decoration: none;
+      padding: 5px;
+  }
+  label{
+      font-size: 18px;
+  
+  }
+  
+  
+  @media (max-width:1400px){
+      
+  .registro{
+      height: auto;
+      width: 350px;
+      display: grid;
+      place-items: center;
+  }
+  
+  img{
+      width: 400px;
+  
+  }
+  input{
+      width: 60%;
+  }
+  
+  label{
+      font-size: 15px;
+  
+  }
+  
+  }
